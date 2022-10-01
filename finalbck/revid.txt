@@ -1,0 +1,18 @@
+43,GW France Revaluation
+86,GW Japan Revaluation
+51,GW Poland Revaluation
+57,GW Spain Revaluation
+10,GW US Revaluation
+82,GW Malaysia Revaluation
+01,GW Argentina Revaluation
+65,GW Brazil Revaluation
+16,GW Canada Revaluation
+80,GW China Revaluation
+84,GW India Revaluation
+71,GW Australia Revaluation
+45,GW Germany Revaluation
+49,GW Italy Revaluation
+41,GW UK Revaluation
+58,GW Denmark Revaluation
+47,GW Ireland Revaluation
+85,GW India 85 Revaluation

@@ -1,0 +1,2483 @@
+{
+  "items" : [ {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "Includes all PL, DL and SL (except 4 SL where COA is different)",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000028553348,
+    "Name" : "GW ALL Ledgers Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000028553348",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000028553348",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW AMER DISC SL Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000025360650,
+    "Name" : "GW AMER DISC SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360650",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360650",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW AMER Primary Ledger Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000001414464,
+    "Name" : "GW AMER PL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414464",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414464",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW APAC DISC SL Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000025360648,
+    "Name" : "GW APAC DISC SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360648",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360648",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW APAC Primary Ledger Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000001414466,
+    "Name" : "GW APAC PL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414466",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414466",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Argentina DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000025201541,
+    "Name" : "GW AR DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "ARS",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025201541",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025201541",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Argentina Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000019833039,
+    "Name" : "GW AR PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "ARS",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000019833039",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000019833039",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW AR USD RC-SUBLEDGER",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "ALC",
+    "LedgerId" : 300000019833049,
+    "Name" : "GW AR USD RC-SUBLEDGER",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : false,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "USD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000019833049",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000019833049",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Austria DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000025201622,
+    "Name" : "GW AT DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025201622",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025201622",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Austria Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000017944094,
+    "Name" : "GW AT PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000017944094",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000017944094",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW AT Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000018200681,
+    "Name" : "GW AT SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000018200681",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000018200681",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Australia DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000025174813,
+    "Name" : "GW AU DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "AUD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025174813",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025174813",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Australia Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414027,
+    "Name" : "GW AU PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "AUD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414027",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414027",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW AU Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000001412426,
+    "Name" : "GW AU SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "AUD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412426",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412426",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Bermuda DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188793,
+    "Name" : "GW BM DISC SL1",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188793",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188793",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Bermuda Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001412286,
+    "Name" : "GW BM PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412286",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412286",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Brazil DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020289617,
+    "Name" : "GW BR DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "BRL",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020289617",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020289617",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Brazil Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414018,
+    "Name" : "GW BR PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "BRL",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414018",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414018",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Canada DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020314276,
+    "Name" : "GW CA DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "CAD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020314276",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020314276",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Canada Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414017,
+    "Name" : "GW CA PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : false,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "CAD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414017",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414017",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Switzerland DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020291532,
+    "Name" : "GW CH DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "CHF",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020291532",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020291532",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Switzerland Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414025,
+    "Name" : "GW CH PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "CHF",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414025",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414025",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW CH Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000001412420,
+    "Name" : "GW CH SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "CHF",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412420",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412420",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW China DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020290836,
+    "Name" : "GW CN DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "CNY",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020290836",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020290836",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW China Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414029,
+    "Name" : "GW CN PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "CNY",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414029",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414029",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Germany DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020310074,
+    "Name" : "GW DE DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020310074",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020310074",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Germany Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414021,
+    "Name" : "GW DE PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : false,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414021",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414021",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW DE Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000001412404,
+    "Name" : "GW DE SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412404",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412404",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW DISCLOSURE Secondary Ledger Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000025256697,
+    "Name" : "GW DISC SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025256697",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025256697",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW DK DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000026789294,
+    "Name" : "GW DK DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "DKK",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000026789294",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000026789294",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW DK Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000026789264,
+    "Name" : "GW DK PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "DKK",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000026789264",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000026789264",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW DK Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000026747267,
+    "Name" : "GW DK SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "DKK",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000026747267",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000026747267",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA DISC SL Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000025360642,
+    "Name" : "GW EMEA DISC SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360642",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360642",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA Primary Ledger Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000001414468,
+    "Name" : "GW EMEA PL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414468",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414468",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA SL Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000027225753,
+    "Name" : "GW EMEA SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000027225753",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000027225753",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA1 Disclosure SL Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000025360644,
+    "Name" : "GW EMEA1 DISC SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360644",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360644",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA1 Primary Ledger Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000001414471,
+    "Name" : "GW EMEA1 PL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414471",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414471",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA2 Disclosure SL Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000025360646,
+    "Name" : "GW EMEA2 DISC SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360646",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025360646",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA2 Primary Ledger Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000001414473,
+    "Name" : "GW EMEA2 PL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414473",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414473",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA3 Disclosure SL Set (includes GW UK DISC SL, GW DK DISC SL)",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000032476291,
+    "Name" : "GW EMEA3 DISC SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000032476291",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000032476291",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA3 Primary Ledger Set (Includes GW UK PL & GW DK PL)",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000032476289,
+    "Name" : "GW EMEA3 PL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000032476289",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000032476289",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW EMEA3 SL Set (includes GW DK SL, GW DE SL, GW IE SL)",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000032476293,
+    "Name" : "GW EMEA3 SL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000032476293",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000032476293",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Spain DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020319409,
+    "Name" : "GW ES DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020319409",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020319409",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Spain Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414026,
+    "Name" : "GW ES PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : false,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414026",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414026",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 4002,
+    "Description" : "GW ES Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000005908216,
+    "Name" : "GW ES SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000005908216",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000005908216",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW France DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020290949,
+    "Name" : "GW FR DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020290949",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020290949",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW France Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414020,
+    "Name" : "GW FR PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414020",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414020",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 4003,
+    "Description" : "GW FR Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000005908208,
+    "Name" : "GW FR SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000005908208",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000005908208",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Hong Kong DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188849,
+    "Name" : "GW HK DISC SL1",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "HKD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188849",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188849",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Hong Kong Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414028,
+    "Name" : "GW HK PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "HKD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414028",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414028",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Ireland DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020319430,
+    "Name" : "GW IE DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020319430",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020319430",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Ireland Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414022,
+    "Name" : "GW IE PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414022",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414022",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW IE Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000001412410,
+    "Name" : "GW IE SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412410",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412410",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW India DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020291541,
+    "Name" : "GW IN DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "INR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020291541",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020291541",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW India Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000016748510,
+    "Name" : "GW IN PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "INR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000016748510",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000016748510",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH6771177317",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW India Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000034135502,
+    "Name" : "GW IN SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW IN Calendar",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "INR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000034135502",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000034135502",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Italy DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000025174834,
+    "Name" : "GW IT DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025174834",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025174834",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Italy Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414023,
+    "Name" : "GW IT PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414023",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414023",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 4004,
+    "Description" : "GW IT Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000005908223,
+    "Name" : "GW IT SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000005908223",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000005908223",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Japan DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020310113,
+    "Name" : "GW JP DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "JPY",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020310113",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020310113",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Japan Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414030,
+    "Name" : "GW JP PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "JPY",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414030",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414030",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW JP Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000001412435,
+    "Name" : "GW JP SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "JPY",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412435",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412435",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Malaysia DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020318344,
+    "Name" : "GW MY DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "MYR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020318344",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020318344",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Malaysia Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000019642549,
+    "Name" : "GW MY PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "MYR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000019642549",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000019642549",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW MY Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000019642566,
+    "Name" : "GW MY SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "MYR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000019642566",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000019642566",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Poland DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000025174850,
+    "Name" : "GW PL DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "PLN",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025174850",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025174850",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Poland Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414024,
+    "Name" : "GW PL PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "PLN",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414024",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414024",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 4005,
+    "Description" : "GW PL Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000005908230,
+    "Name" : "GW PL SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "PLN",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000005908230",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000005908230",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Primary Ledger Set",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000001414462,
+    "Name" : "GW PL Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414462",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414462",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW UK DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000025174910,
+    "Name" : "GW UK DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "GBP",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025174910",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025174910",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW UK Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414019,
+    "Name" : "GW UK PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "GBP",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414019",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414019",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW UK Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000001412398,
+    "Name" : "GW UK SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : true,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "GBP",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412398",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001412398",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : null,
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "NONE",
+    "LedgerId" : 300000146204645,
+    "Name" : "GW US & WW CL Ledger Set",
+    "LedgerTypeCode" : "S",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : null,
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "X",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000146204645",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000146204645",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW US DISC Secondary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000025230694,
+    "Name" : "GW US DISC SL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "USD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025230694",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025230694",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW US Primary Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414016,
+    "Name" : "GW US PL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : false,
+    "ArDocumentSequencingOptionFlag" : false,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "USD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414016",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414016",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW WW Consolidation Ledger",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000001414426,
+    "Name" : "GW WW CL",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "N",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "USD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414426",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000001414426",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "GW Consolidated Ledger for 605",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "PRIMARY",
+    "LedgerId" : 300000025201468,
+    "Name" : "GW WW CL 605",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "N",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : "N",
+    "CurrencyCode" : "USD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025201468",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000025201468",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX1",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020174953,
+    "Name" : "XX1",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "CNY",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174953",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174953",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX10",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188856,
+    "Name" : "XX10",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188856",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188856",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX11",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188904,
+    "Name" : "XX11",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "MYR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188904",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188904",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX12",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020174895,
+    "Name" : "XX12",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "AUD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174895",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174895",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX13",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188870,
+    "Name" : "XX13",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188870",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188870",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX14",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188876,
+    "Name" : "XX14",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "PLN",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188876",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188876",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX15",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188898,
+    "Name" : "XX15",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "GBP",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188898",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188898",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX16",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188912,
+    "Name" : "XX16",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "ARS",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188912",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188912",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX17",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188918,
+    "Name" : "XX17",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188918",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188918",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX18",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020174989,
+    "Name" : "XX18",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "USD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174989",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174989",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX2",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020174959,
+    "Name" : "XX2",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174959",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174959",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX3",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020175002,
+    "Name" : "XX3",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "CHF",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020175002",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020175002",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX4",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020188864,
+    "Name" : "XX4",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "INR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188864",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020188864",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX5",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020175008,
+    "Name" : "XX5",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020175008",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020175008",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX6",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020174979,
+    "Name" : "XX6",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "JPY",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174979",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174979",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX7",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020174902,
+    "Name" : "XX7",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "BRL",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174902",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174902",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX8",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020174918,
+    "Name" : "XX8",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "L",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "CAD",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174918",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020174918",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  }, {
+    "AccountedPeriodType" : "MONTH2416592178",
+    "ChartOfAccountsId" : 3002,
+    "Description" : "XX9",
+    "EnableBudgetaryControlFlag" : false,
+    "LedgerCategoryCode" : "SECONDARY",
+    "LedgerId" : 300000020175018,
+    "Name" : "XX9",
+    "LedgerTypeCode" : "L",
+    "PeriodSetName" : "GW CORP",
+    "SequencingModeCode" : "LE",
+    "ApDocumentSequencingOptionFlag" : null,
+    "ArDocumentSequencingOptionFlag" : null,
+    "EnfSequenceDateCorrelationCode" : null,
+    "CurrencyCode" : "EUR",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020175018",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV/300000020175018",
+      "name" : "ledgersLOV",
+      "kind" : "item"
+    } ]
+  } ],
+  "count" : 95,
+  "hasMore" : false,
+  "limit" : 10000,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://efow-dev1.fa.us2.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/ledgersLOV",
+    "name" : "ledgersLOV",
+    "kind" : "collection"
+  } ]
+}
