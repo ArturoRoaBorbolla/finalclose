@@ -1174,7 +1174,7 @@ def write_pdf(data_lines,name):
             pdf.cell(200, 10, txt = x, ln = 2, align = 'J')
     pdf.output(name) 
     
-def create_report(CPE_zipfile,pid):
+def create_report(CPE_zipfile,pid,ent):
     logger.info("Creating cpe report")
     try:
         with zipfile.ZipFile(f"{CPE_zipfile}", 'r') as zip_ref:
@@ -1195,9 +1195,9 @@ def create_report(CPE_zipfile,pid):
             for j in range(len(data['CLASS_S'])):
                 new_data[count]= data['CLASS_S'][j]
                 count+=1
-        Save_Sheet(new_data,f"{unzip_path}\\Close_Exception_Report.xlsx",f"{count}", 0, 0)
+        Save_Sheet(new_data,f"{unzip_path}\\Close_Exception_Report_{ent}.xlsx",f"{count}", 0, 0)
         logger.info("Exceptions detected")
-        return f"{unzip_path}\\Close_Exception_Report.xlsx"
+        return f"{unzip_path}\\Close_Exception_Report_{ent}.xlsx"
     except:
         logger.info("Not exceptions detected")
         return "No Exceptions found"

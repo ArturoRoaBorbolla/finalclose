@@ -22,6 +22,7 @@ def posting():
     return notifications
 
 def P6Bot2(data):
+    try:
         ledger, period = data.split(" ")
         Unposted=""
         notifications =  f"<ul>"
@@ -130,7 +131,7 @@ def P6Bot2(data):
                         print("\n")
                         print("\n")
                         print("Converting")
-                        Validation = create_report(CPE_zipfile,f"{pid}")
+                        Validation = create_report(CPE_zipfile,f"{pid}",ledger)
                     logger.info("Doing Revalue")
                     print(f"verified: {Validation}")
                     if Validation =="No Exceptions found" and pid != 0:
@@ -189,3 +190,5 @@ def P6Bot2(data):
                 return notifications
         else:
             return f"{notifications} // "
+    except:
+        return {"Connectivity issue occurs //"}
