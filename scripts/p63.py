@@ -49,7 +49,7 @@ def P6Bot3(data):
         response = GL_Request(opening_soap)
         name = entities[ledger]["Name"]
         notifications = f"Period Closed for Entity {ledger}\n"
-        notifications += f"Ledger {name} have been opened for next period\n     "
+        notifications += f"Ledger {name} is opened for next period\n     "
         ledgers_report.write(f"Entity: {ledger} is closed now<br>")
         return notifications
     except:
