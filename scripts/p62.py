@@ -107,6 +107,27 @@ def P6Bot2(data):
                             Unposted+="</li><br>"
                     Unposted += "</ul>"
                     return f"<br>        Error : Entity  {led}  have unposted journals. <br> {Unposted} //  "
+                if ledger == "84":
+                        led = rev_entities[ledger]["Name"]
+                        rev_soap = Create_Validate_SOAP(rev_entities["85"]["Ledger"], period)
+                        logger.info("Validating Revalue")
+                        rev_response = Validate_Journals(rev_soap)
+                        rd =rev_response.decode()
+                        print(f"\n\n\n{rd} \n\n\n")
+                        #notifications+= f"<Br><b>Step 1 (Part B):  Identifying unposted Journals for revaluation ledgers</b><br> "
+                        if len(rev_response.decode().strip().splitlines()) != valid_length:
+                            logger.info("Error : unposted")
+                            Push_To_S3(f"{logs_path}\\log.log","Process6","Log")
+                            Unposted="\n"
+                            rd=rd.splitlines()
+                            Unposted+="<ul>"
+                            for ul in rd:
+                                if "JOURNAL_NAME"in ul:
+                                    Unposted += "<li>"  
+                                    Unposted += ul.split("JOURNAL_NAME>")[1].split("</")[0]
+                                    Unposted+="</li><br>"
+                            Unposted += "</ul>"
+                            return f"<br>        Error : Entity  {led}  have unposted journals. <br> {Unposted} //  "
                 
             logger.info("creating multiperiod accounting")
             logger.info("Doing multiperiod accounting")
@@ -139,6 +160,9 @@ def P6Bot2(data):
                         notifications+= f"<br> <b>Step 4: Running the Revaluation</b><br>"
                         rev_file = Revaluation(ledger, Year, Month)
                         revf=rev_file.split("\\")[-1]
+                        if ledger == "84":
+                            rev_file2 = Revaluation("85", Year, Month)
+                            revf2=rev_file2.split("\\")[-1]
                         logger.info("REV DONE")
                         notifications += posting()
                         notifications += f"<li>        Revalue ledger --> Done </li> <br> <li>        Please refer to file '{revf}' if available for more information.</li> <br>"
@@ -151,7 +175,10 @@ def P6Bot2(data):
                             transf= cpef= trans_zipfile.split("\\")[-1]
                             logger.info("Translating ledgers")
                             notifications += f"<li> Translation ledger --> Done </li> <br> <li>        Please refer to file '{transf}' if available for more information.</li> <br>"
-                            notifications += f"<li>LEDGER --> {ledger} </li><br><li>Entity --> {ent}</li><br></ul> // {mpa_zipfile};{CPE_zipfile};{rev_file};{trans_zipfile};{data_path}\\PID_{ledger}_{current_month}_{year_two_digits}.INFO"
+                            if ledger != "84":
+                                notifications += f"<li>LEDGER --> {ledger} </li><br><li>Entity --> {ent}</li><br></ul> // {mpa_zipfile};{CPE_zipfile};{rev_file};{trans_zipfile};{data_path}\\PID_{ledger}_{current_month}_{year_two_digits}.INFO"
+                            else:
+                                notifications += f"<li>LEDGER --> {ledger} </li><br><li>Entity --> {ent}</li><br></ul> // {mpa_zipfile};{CPE_zipfile};{rev_file};{rev_file2};{trans_zipfile};{data_path}\\PID_{ledger}_{current_month}_{year_two_digits}.INFO"    
                     else:
                         valf=Validation.split("\\")[-1]
                         notifications += f"<br>Report Created:<br><li>{valf}.</li>"
