@@ -22,7 +22,7 @@ def posting():
     return notifications
 
 def P6Bot2(data):
-    #try:
+    try:
         ledger, period = data.split(" ")
         Unposted=""
         notifications =  f"<ul>"
@@ -217,5 +217,5 @@ def P6Bot2(data):
                 return notifications
         else:
             return f"{notifications} // "
-    #except:
-    #    return {"Connectivity issue occurs //"}
+    except:
+        return {"Connectivity issue occurs //"}
