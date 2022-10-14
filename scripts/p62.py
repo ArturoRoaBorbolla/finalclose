@@ -172,7 +172,7 @@ def P6Bot2(data):
                             logger.info("Doing Translation")
                             notifications+= f"<br> <b>Step 5: Running the Translation</b><br>"
                             trans_zipfile = Do_Translation(ledger, f"{current_month}-{year_two_digits}")
-                            transf= cpef= trans_zipfile.split("\\")[-1]
+                            transf= trans_zipfile.split("\\")[-1]
                             logger.info("Translating ledgers")
                             notifications += f"<li> Translation ledger --> Done </li> <br> <li>        Please refer to file '{transf}' if available for more information.</li> <br>"
                             if ledger != "84":
