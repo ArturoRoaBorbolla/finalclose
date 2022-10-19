@@ -1392,7 +1392,6 @@ def get_spreedsheet(soap):
     return respdec
 
 '''
-
 def get_report(report_type):
     if report_type == "Allocation":
         soap_report=Create_allocation_report_SOAP()
