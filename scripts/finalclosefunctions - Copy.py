@@ -787,7 +787,6 @@ def Do_MPA(ledger_id, Year, Month):
             zip.write(child_zipdata)
         print(f"\n\n\n child zipdata saved as {child_zipfile_name}")
         mpa_month = months[int(Month) - 1]
-        #child_filename=get_mpa_report(child_zipfile_name,f"{zip_path}\\mpa_report_{ledger_id}_{mpa_month}_{year_two_digits}.pdf")
         child_filename=get_mpa_report(child_zipfile_name,f"{zip_path}\\mpa_report_{ledger_id}_{mpa_month}_{year_two_digits}.pdf")
         #############
         return f"{child_filename}"
@@ -1090,7 +1089,7 @@ def Save_Sheet(Dic, File, Sheet, Col, Row):
     writer.save()
 
 
-'''
+
 def get_mpa_report(file,filename):
         logger.info("Creating MPA report")
     #try:
@@ -1117,41 +1116,6 @@ def get_mpa_report(file,filename):
     #    logger.info("Not exceptions detected")
     #    return ""
 
-'''
-
-
-
-def get_mpa_report(file,filename):
-        logger.info("Creating MPA report")
-    #try:
-        with zipfile.ZipFile(f"{file}", 'r') as zip_ref:
-            zip_ref.extractall(f"{unzip_path}")
-        pid = file.split("\\")[-1]
-        pid = pid.split("_")[-1]
-        pid = pid.split(".")[0]
-        xml_file=f"{unzip_path}\\ESS_O_{pid}_BIP.xml"
-        Xml_Data = open(xml_file,"r").read()
-        dictionary = xmltodict.parse(Xml_Data)
-        data = json.loads(json.dumps(dictionary))["XLAAPRPT"]
-        String=""
-        #for i in data:
-        #    print(f"\n\n\n{String}\n\n\n")
-        #    String += get_string(i,data,0)
-        String=get_string(String,dictionary,0)
-        #Save_Sheet(new_data,f"{unzip_path}\\MPA_RRPORT_TEST.xlsx",f"{Test}", 0, 0)
-        print(String)
-        #data_lines= String.splitlines()
-        #logger.info("MPA REPORT DONE")
-        #write_pdf(data_lines,f"{filename}")
-        arc=open(f'{filename}',"w")
-        arc.write(String)
-        arc.close()
-        return f"{filename}"
-    #except:
-    #    logger.info("Not exceptions detected")
-    #    return ""
-
-
 
 def get_mpa_report_d(file):
     #logger.info("Creating MPA report")
@@ -1174,32 +1138,6 @@ def get_mpa_report_d(file):
     #    logger.info("MPA cannot be created")
     #    return "OK"
 
-
-    
-def get_string(String,dictionary,level):
-    for i in dictionary.keys():
-        print(i)
-        t=type(dictionary[i])
-        print(t)
-        if t is str:
-            value=dictionary[i]
-            if value != None and value != "":
-                spaces = "\t" * level
-                i=i.replace("_"," ")
-                String += f"{spaces}{i} : {value}\n"
-        elif t is dict:
-            String=get_string(String,dictionary[i],level+1)
-        elif t is list:
-            for j in range(len(dictionary[i])):
-                dictionary2=dictionary[i][j]
-                String=get_string(String,dictionary2,level+1)
-    return String
-
-
-
-
-
-'''
 def get_string(i,data,level):
     t=type(data[i])
     #print(f"I:{i},data[i]:{data[i]},Level:{level},Type:{t}")
@@ -1222,7 +1160,7 @@ def get_string(i,data,level):
         #String = f"{i}\n"
         String=""
     return String
-'''
+
 
 
 def write_pdf(data_lines,name):
