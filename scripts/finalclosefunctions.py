@@ -58,7 +58,7 @@ valid_length = len(valid_response_Posted.splitlines())
 Fail_Flag_Posted = 0
 unzip_path = os.path.join(ROOT_DIR, "Unzip")
 os.makedirs(unzip_path, exist_ok=True)
-general_data_path = os.path.join(ROOT_DIR, "..\\generaldata")
+general_data_path = os.path.join(ROOT_DIR, "generaldata")
 os.makedirs(general_data_path, exist_ok=True)
 logzero.loglevel(logzero.INFO)
 logzero.logfile(f"{logs_path}\\log.log")
@@ -99,13 +99,15 @@ def set_user(data):
 
 def read_credentials():
     try:
-        logger.info("Reading credentials")
+        logger.info("Reading credentials HERE")
+        #logger.info(f"Reading {data_path}\\credentials.txt")
         usr_psw = open(f"{data_path}\\credentials.txt","rb")
         user = base64.b64decode(usr_psw.readline().decode()).decode()
         passw = base64.b64decode(usr_psw.readline().decode()).decode()
         usr_psw.close()
         user = user.strip()
         passw = passw.strip()
+        #logger.info(f"\n\n\nUsing Credentials {passw}   {user}\n\n\n")
         #user , passw="vsethi","Welcome1"
     except:
         logger.info("Error on reading credentials")
@@ -438,12 +440,16 @@ def GL_Request_pdf(soap):
 
 
 def Create_Multi_Period_Accounting(ledger_id, Year, Month):
+    Month = int(Month)
+    if Month>=8:
+        Month = Month -12
+    Month += 5
     logger.info("Creating multiperiod accounting SOAP")
     return f'''{{
 "OperationName":"submitESSJobRequest",
 "JobPackageName":"/oracle/apps/ess/financials/subledgerAccounting/shared",
 "JobDefName":"XLAFSNAPMPA",
-"ESSParameters":"M,140,{ledger_id},#NULL,{Year}00{Month},F,1000,#NULL,Y,Y,#NULL,N,#NULL,#NULL,#NULL,#NULL,#NULL,#NULL,#NULL",
+"ESSParameters":"M,200,{ledger_id},#NULL,{Year}00{Month},F,1000,#NULL,Y,Y,#NULL,N,#NULL,#NULL,#NULL,#NULL,#NULL,#NULL,#NULL",
 "ReqstId":null
 }}      '''
 
