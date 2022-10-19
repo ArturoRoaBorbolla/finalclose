@@ -734,14 +734,14 @@ def Do_MPA(ledger_id, Year, Month):
     logger.info("Trying to do multiperiod accounting")
     try:
         with open(f"{data_path}\\mpa_{ledger_id}{Year}{Month}.cfg","r") as mpa_file:
-            return f"{zip_path}\\mpa_report_{ledger_id}_{mon}_{year_two_digits}.pdf"
+            return f"{zip_path}\\mpa_report_{ledger_id}_{mon}_{year_two_digits}.txt"
     except:
        pass
     zipfile_name = ""  
     entities = get_entities("priandsub")
     if ledger_id not in entities.keys():
         logger.info("LEdger id not in entities")
-        return f"{zip_path}\\mpa_report_{ledger_id}_{mon}_{year_two_digits}.pdf"
+        return f"{zip_path}\\mpa_report_{ledger_id}_{mon}_{year_two_digits}.txt"
     ledger = entities[ledger_id]["Ledger"]
     Entity = entities[ledger_id]["Name"]
     logger.info(f"Creating Multi-Period-Accounting for ledger {ledger} --> {Entity}  ")
@@ -788,7 +788,7 @@ def Do_MPA(ledger_id, Year, Month):
         print(f"\n\n\n child zipdata saved as {child_zipfile_name}")
         mpa_month = months[int(Month) - 1]
         #child_filename=get_mpa_report(child_zipfile_name,f"{zip_path}\\mpa_report_{ledger_id}_{mpa_month}_{year_two_digits}.pdf")
-        child_filename=get_mpa_report(child_zipfile_name,f"{zip_path}\\mpa_report_{ledger_id}_{mpa_month}_{year_two_digits}.pdf")
+        child_filename=get_mpa_report(child_zipfile_name,f"{zip_path}\\mpa_report_{ledger_id}_{mpa_month}_{year_two_digits}.txt")
         #############
         return f"{child_filename}"
     else:
