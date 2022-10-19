@@ -1,3 +1,4 @@
+import collections
 import os
 import sys
 import json
@@ -1187,7 +1188,7 @@ def get_string(String,dictionary,level):
                 spaces = "\t" * level
                 i=i.replace("_"," ")
                 String += f"{spaces}{i} : {value}\n"
-        elif t is dict:
+        elif t is dict or t is collections.OrderedDict:
             String=get_string(String,dictionary[i],level+1)
         elif t is list:
             for j in range(len(dictionary[i])):
