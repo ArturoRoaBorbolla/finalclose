@@ -1132,7 +1132,7 @@ def get_mpa_report(file,filename):
         xml_file=f"{unzip_path}\\ESS_O_{pid}_BIP.xml"
         Xml_Data = open(xml_file,"r").read()
         dictionary = xmltodict.parse(Xml_Data)
-        data = json.loads(json.dumps(dictionary))["XLAAPRPT"]
+        #data = json.loads(json.dumps(dictionary))["XLAAPRPT"]
         String=""
         #for i in data:
         #    print(f"\n\n\n{String}\n\n\n")
